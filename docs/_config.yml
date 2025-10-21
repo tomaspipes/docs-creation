@@ -15,8 +15,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Create your Documentation
-description: Home for the Safe Posix Build CoC documentation
-baseurl: "/pages/tomaspipes/docs-creation"
+description: Home for the Documentation Creation
+baseurl: "/pages/tomaspipes/docs-creation/"
 url: "https://github.com"
 
 
@@ -32,28 +32,11 @@ collections_dir: "srcs"
 collections:
   knowledge_base:
     output: true
-  products:
-    output: true  # Link all files inside a collection
-  projects:
-    output: true
-  team:
-    output: true
-  support:
-    output: true
 
 just_the_docs:
   collections:
     knowledge_base:
       name: Knowledge Base
-      nav_fold: true
-    projects:
-      name: Projects
-      nav_fold: true
-    team:
-      name: Team
-      nav_fold: true
-    support:
-      name: Support Guidelines
       nav_fold: true
 
 color_scheme: wider
