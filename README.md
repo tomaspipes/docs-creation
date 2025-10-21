@@ -3,7 +3,7 @@
 Welcome to the docs-creation
 
 To access the render documentation, just click on the url below:
-<https://github.com/pages/tomaspipes/docs-creation/>
+<https://tomaspipes.github.io/docs-creation/>
 
 All the documentation is written as markdown and converted to a static website
 using [Jekyll](https://jekyllrb.com/). Jekyll is natively supported by GitHub
